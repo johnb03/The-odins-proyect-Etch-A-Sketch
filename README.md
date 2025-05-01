@@ -18,7 +18,7 @@
 
 * Revisa el panel de “elementos” para ver si los elementos realmente han aparecido pero están ocultos de alguna manera.
 
-* Vaya a su antojo y agregue console.logdeclaraciones en su JavaScript para ver si realmente se está cargando.
+* Vaya a su antojo y agregue console.log declaraciones en su JavaScript para ver si realmente se está cargando.
 
 
 **2.**  Configure un efecto de “desplazamiento” para que los divs de la cuadrícula cambien de color cuando el mouse pase sobre ellos, dejando un rastro (pixelado) a través de la cuadrícula como lo haría un bolígrafo.

@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="shortcut icon" href='/assets/favicon.ico' type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch a Sketch</title>
+
     <script src="/app.js" defer></script>
 </head>
+
 <body>
-    <div class="container"> 
-        <div class="grid-sketch"></div>
-     </div>
+    <div class="container">
+        <div class="plasticBorder">
+            <div class="rigt-side">
+
+                <img src="/assets/ethc-logo.png" alt="logo etch a sketch" class="logo">
+                <div class="buttons">
+                    <button id="reset" class="button-neobrutal">Reset</button>
+                    <button id="randomColor" class="button-neobrutal"> R. Color</button>
+                    <button id="changeGridSize" class="button-neobrutal">Grid size</button>
+                </div>
+                <div class="inputs-color">
+                    <label for="color">Pick a Color</label>
+                    <input type="color" id="color" value="#645959">
+                </div>
+                <!-- <label for="range">Grid Size</label> -->
+            </div>
+            <div class="grid-sketch"></div>
+        </div>
+        
+    </div>
+    <audio src="/assets/keyboard-spacebar-hit-101812.wav" id="interaccion-Sound"></audio>
+    <p class="firma">Develop by John Bra.</p>
 </body>
+
 </html>
